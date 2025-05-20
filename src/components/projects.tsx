@@ -38,6 +38,14 @@ const projects = [
     github: "https://github.com/ab0626/Batch",
     website: ""
   },
+  {
+    number: "04",
+    title: "CueAI (Precision Pool Simulator)",
+    description: [
+      'CueAI is a high-fidelity pool simulation app designed to predict cue ball and object ball behavior based on input parameters like shot angle, speed, spin, and table imperfections. It incorporates advanced physics simulations, machine learning calibration, and a simple user interface to provide an interactive and accurate pool shot prediction tool.'
+    ],
+    tech: "Python, PyTorch, Scikit-learn, OpenCV, PyQt, numpy, pandas"
+  }
 ];
 
 export function Projects() {
