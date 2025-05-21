@@ -17,7 +17,7 @@ export function Contact() {
           transition={{ duration: 0.5 }}
           className="max-w-2xl mx-auto"
         >
-          <h2 className="text-3xl font-bold text-center mb-8">Get in Touch</h2>
+          <h2 className="text-3xl font-bold text-center mb-8">Get in Touch with me</h2>
           <form className="space-y-6">
             <div className="space-y-2">
               <label
