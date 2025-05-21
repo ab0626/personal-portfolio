@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { ThemeToggle } from "@/components/theme-toggle";
 import Image from "next/image";
-import { SiCplusplus, SiPython, SiSwift, SiPostgresql, SiMongodb, SiGit, SiGithub, SiDjango, SiDocker, SiC, SiR, SiApachespark, SiApachekafka, SiApachehadoop, SiPlotly, SiNumpy, SiPandas, SiScikitlearn, SiTensorflow, SiKeras, SiPytorch, SiAmazon, SiGooglecloud, SiLangchain, SiJira, SiTerraform } from "react-icons/si";
+import { SiCplusplus, SiPython, SiSwift, SiPostgresql, SiMongodb, SiGit, SiGithub, SiDjango, SiDocker, SiC, SiR, SiApachespark, SiApachekafka, SiApachehadoop, SiPlotly, SiNumpy, SiPandas, SiScikitlearn, SiTensorflow, SiKeras, SiPytorch, SiAmazon, SiGooglecloud, SiLangchain, SiJira, SiTerraform, SiCmake } from "react-icons/si";
 import { FaJava, FaRegCircle, FaDatabase, FaCloud, FaCalculator, FaChartLine, FaAws } from "react-icons/fa";
 
 function AnimatedHero() {
@@ -53,6 +53,7 @@ const skills = [
   { icon: <SiC color="#A8B9CC" />, label: "C" },
   { icon: <FaJava color="#007396" />, label: "Java" },
   { icon: <SiR color="#276DC3" />, label: "R" },
+  { icon: <FaRegCircle color="#4EAA25" />, label: "Bash" },
   { icon: <FaDatabase color="#F29111" />, label: "Cassandra" },
   { icon: <FaDatabase color="#00758F" />, label: "MySQL" },
   { icon: <FaDatabase color="#22ADF6" />, label: "InfluxDB" },
@@ -80,6 +81,7 @@ const skills = [
   { icon: <SiLangchain color="#00A67E" />, label: "Langchain" },
   { icon: <SiJira color="#0052CC" />, label: "Jira" },
   { icon: <SiTerraform color="#7B42BC" />, label: "Terraform" },
+  { icon: <FaRegCircle color="#0056B3" />, label: "CMake" },
   // Add more as needed
 ];
 
@@ -95,9 +97,15 @@ export function Hero() {
         <a href="https://github.com/ab0626" target="_blank" rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <Github className="text-white w-6 h-6" />
         </a>
-        {/* <a href="mailto:your@email.com" className="bg-gray-700 hover:bg-green-700 p-3 rounded-full transition">
+        <a href="mailto:adithya35756@gmail.com" className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <Mail className="text-white w-6 h-6" />
-        </a> */}
+        </a>
+        <a href="https://www.linkedin.com/in/adithya-b-/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
+          <Linkedin className="text-white w-6 h-6" />
+        </a>
+        <a href="/resume.pdf" download className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
+          <span className="text-white text-sm">Resume</span>
+        </a>
       </div>
 
       {/* Centered Content */}
@@ -204,6 +212,7 @@ export function Education() {
             <li>College of Science - Student Ambassador</li>
             <li>Association of Computing Machinery - Membership Chair</li>
             <li>Data Science And Ai Club - Vice President</li>
+            <li>ICPC - Vice President</li>
             <li>Space Hardware Club</li>
           </ul>
         </div>
