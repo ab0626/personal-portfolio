@@ -47,9 +47,8 @@ const projects = [
     tech: "Python, PyTorch, Scikit-learn, OpenCV, PyQt",
     github: "https://github.com/ab0626/CueAI",
     website: ""
-  }
+  },
 ];
-
 export function Projects() {
   return (
     <section id="projects" className="py-20 bg-[#181f2a] min-h-screen">
