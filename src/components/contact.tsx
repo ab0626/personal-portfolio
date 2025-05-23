@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, FileDown } from "lucide-react";
 
 export function Contact() {
   return (
@@ -18,6 +18,14 @@ export function Contact() {
           className="max-w-2xl mx-auto"
         >
           <h2 className="text-3xl font-bold text-center mb-8">Get in Touch with me</h2>
+          <div className="flex justify-center mb-8">
+            <Button variant="outline" className="gap-2" asChild>
+              <a href="/resume.pdf" download>
+                <FileDown className="h-4 w-4" />
+                Download Resume
+              </a>
+            </Button>
+          </div>
           <form className="space-y-6">
             <div className="space-y-2">
               <label

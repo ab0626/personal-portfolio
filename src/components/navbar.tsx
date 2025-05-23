@@ -22,8 +22,8 @@ const experiences = [
     role: "SOFTWARE DEVELOPMENT ENGINEERING INTERN",
     description: [
       " - Engineered high-throughput data pipelines using gRPC and Protocol Buffers, enabling low-latency, schema-enforced communication between distributed microservices.",
-      " - Designed modular C++ applications for scalable data processing, boosting performance by 30% and code maintainability by 40%.",
-      " - Streamlined Linux-based simulations using Bash and Docker, reducing setup time by 60% and improving deployment consistency by 50%."
+      " - Engineered high-performance simulation software in C/C++, optimizing compute pipelines for real-time signal propagation and sensor modeling used in classified defense systems.",
+      " - Streamlined Linux-based simulations using Bash and CMake, improving build reliability and reducing compilation time across multi-platform environments. "
     ],
   },
   {

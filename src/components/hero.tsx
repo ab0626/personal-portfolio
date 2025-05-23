@@ -172,9 +172,9 @@ export function Education() {
                 <li>MA 171 - Calculus I</li>
                 <li>MA 172 - Calculus II</li>
                 <li>MA 201 - Calculus III</li>
-                <li>MATH 238 - Appl Differential Equations </li>
-                <li>MATH 244 - Intro to Linear Algebra</li>
-                <li>MATH 385 - Intro to Probability & Statistics</li>
+                <li>MA 238 - Appl Differential Equations </li>
+                <li>MA 244 - Intro to Linear Algebra</li>
+                <li>MA 385 - Intro to Probability & Statistics</li>
               </ul>
             </div>
           </div>
