@@ -48,6 +48,16 @@ const projects = [
     github: "https://github.com/ab0626/CueAI",
     website: ""
   },
+  {
+    number: "05",
+    title: "SpringBoot Performance Optimizer Pro",
+    description: [
+      'Developing an AI-powered backend tool using Java, Spring Boot, DynamoDB, and ML to boost API performance by at least 30% via real-time diagnostics, schema automation, and CI/CD integration. '
+    ],
+    tech: "Java, Spring Boot, DynamoDB",
+    github: "https://github.com/ab0626/Batch",
+    website: ""
+  }
 ];
 export function Projects() {
   return (

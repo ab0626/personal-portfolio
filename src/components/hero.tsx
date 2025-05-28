@@ -103,7 +103,7 @@ export function Hero() {
         <a href="https://www.linkedin.com/in/adithya-b-/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <Linkedin className="text-white w-6 h-6" />
         </a>
-        <a href="/Bellamkonda_Adithya_resume__main_ (1).pdf" download className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
+        <a href="/resume.pdf" download className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <span className="text-white text-sm">Resume</span>
         </a>
       </div>
@@ -221,6 +221,7 @@ export function Education() {
           <h3 className="text-4xl font-serif font-semibold mb-2">Scholarships & Awards</h3>
           <p className="text-lg text-gray-400 mb-4">University of Alabama at Huntsville</p>
           <ul className="list-disc list-inside text-lg text-gray-200">
+            <li>International Quant Competition - National Level Qualifier</li>
             <li>College of Science Ambassador - 15 selected out of 1000+ applicants to guide incoming students</li>
             <li>College of Science CS Ambassador - 1 selected out of 800+ applicants to faciliate CS students and faculty at expos, lectures and new course introductions</li>
             <li>Merit scholarship</li>

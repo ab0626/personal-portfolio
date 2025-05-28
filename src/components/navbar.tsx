@@ -21,19 +21,19 @@ const experiences = [
     date: "SUMMER 2025",
     role: "SOFTWARE DEVELOPMENT ENGINEERING INTERN",
     description: [
-      " - Engineered high-throughput data pipelines using gRPC and Protocol Buffers, enabling low-latency, schema-enforced communication between distributed microservices.",
-      " - Engineered high-performance simulation software in C/C++, optimizing compute pipelines for real-time signal propagation and sensor modeling used in classified defense systems.",
-      " - Streamlined Linux-based simulations using Bash and CMake, improving build reliability and reducing compilation time across multi-platform environments. "
+      " - Designed high-throughput data pipelines using gRPC and Protocol Buffers, achieving a 3x speedup in message serialization/deserialization, reducing average latency from 150msto under 50ms across 1M+ daily messages.",
+      " - Developed real-time signal simulation tools in C/C++, optimizing sensor propagation pipelines to handle classified workloads with up to 10x spatial fidelity, improving execution time by 35%.",
+      " - Automated Linux-based simulations with Bash and CMake, improving cross-platform build consistency and reducing average compile times by 25% across heterogeneous HPC environments."
     ],
   },
   {
     company: "Madison CEO",
     date: "Aug 2023 - May 2024",
-    role: "STUDENT FELLOW / INTERN",
+    role: "SOFTWARE ENGINEERING FELLOW",
     description: [
-      " - Implemented a microservices architecture using Java and Python, improving API response times by 45% and reducing server load by 30% through service decoupling and optimization.",
-      " - Orchestrated a 6-member cross-functional team to design and deploy a major React-Redux feature, resulting in a 30% increase in user engagement and a 20% rise in daily active users within two months Raised $6000 in seed funding.",
-      " - Enhanced system performance by optimizing MySQL queries, cutting page load times by 65%, while actively engaging with 34 investors and collaborating with 8 board members to drive strategic growth."
+      " - Implemented 6 decoupled microservices using Java and Python with Spring Boot and Flask, handling 12,000+ daily API requests, leading to a 45% reduction in response latency and a 30% server load decrease.",
+      " - Led a 6-member cross-functional team to deploy a key React-Redux feature, boosting platform engagement to 800+ daily active users, and increasing session time by 20% within 60 days.",
+      " - Optimized 60+ complex MySQL queries, cutting page load times by 65% and improving database response throughput by 2.8x."
     ]
   },
 ];
