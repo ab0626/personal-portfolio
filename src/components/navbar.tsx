@@ -17,13 +17,30 @@ const navItems = [
 
 const experiences = [
   {
+    company: "Roblox",
+    date: "June 2025 - Present",
+    role: "Software Development Engineer / QA Engineering (Testing) (Remote)",
+    description: [
+      " - Development for Roblox Studio, Testing Team on a game with 55M+ Visits, Active user count over 1K+"
+    ]
+  },
+  {
+    company: "Susquehanna International Group",
+    date: "Summer 2025",
+    role: "Quantitative Developer Intern",
+    description:[
+      " - Summer 2025"
+    ],
+  },
+  {
     company: "Corvid Technologies",
-    date: "SUMMER 2025",
+    date: "March 2025 - Present",
     role: "SOFTWARE DEVELOPMENT ENGINEERING INTERN",
     description: [
-      " - Designed high-throughput data pipelines using gRPC and Protocol Buffers, achieving a 3x speedup in message serialization/deserialization, reducing average latency from 150msto under 50ms across 1M+ daily messages.",
+      " - Built gRPC data pipelines with Protobuf, reducing latency 3× (150ms→50ms) for 1M+ daily messages",
       " - Developed real-time signal simulation tools in C/C++, optimizing sensor propagation pipelines to handle classified workloads with up to 10x spatial fidelity, improving execution time by 35%.",
-      " - Automated Linux-based simulations with Bash and CMake, improving cross-platform build consistency and reducing average compile times by 25% across heterogeneous HPC environments."
+      " - Automated Linux-based simulations with Bash and CMake, improving cross-platform build consistency through POSIX sockets, reducing average compile times by 25% across heterogeneous HPC environments.",
+      " - Designed a modular React/Node.js interface, reducing config time by 50% and supporting 5,000+ sub-second task calls/hour for 10+ users."
     ],
   },
   {
@@ -107,7 +124,7 @@ export function Experience() {
         {experiences.map((exp, idx) => (
           <div
             key={idx}
-            className="bg-[#23272f] rounded-3xl p-10 shadow-lg flex flex-col min-h-[260px] justify-between"
+            className="bg-[#23272f] rounded-3xl p-10 shadow-lg flex flex-col min-h-[200px] justify-between border border-gray-700 hover:border-gray-500 transition-colors"
           >
             <div>
               <h3 className="text-3xl font-serif font-semibold text-white mb-4">{exp.company}</h3>

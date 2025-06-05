@@ -103,7 +103,7 @@ export function Hero() {
         <a href="https://www.linkedin.com/in/adithya-b-/" target="_blank" rel="noopener noreferrer" className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <Linkedin className="text-white w-6 h-6" />
         </a>
-        <a href="/resume.pdf" download className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
+        <a href="/Bellamkonda_Adithya_resume (16).pdf" download className="bg-gray-700 hover:bg-gray-900 p-3 rounded-full transition">
           <span className="text-white text-sm">Resume</span>
         </a>
       </div>
@@ -212,7 +212,7 @@ export function Education() {
             <li>College of Science - Student Ambassador</li>
             <li>Association of Computing Machinery - Membership Chair</li>
             <li>Data Science And Ai Club - Vice President</li>
-            <li>ICPC - Vice President</li>
+            <li>ICPC - President</li>
             <li>Space Hardware Club</li>
           </ul>
         </div>

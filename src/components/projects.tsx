@@ -24,7 +24,7 @@ const projects = [
       `Designed a fault-tolerant distributed job processing system using Go, Redis, and Docker, supporting parallel execution with retry strategies and a DLQ for failed tasks.`,
       `Enhanced system with Prometheus + Grafana to track metrics such as queue depth, task success/failure ratios, and worker performance in real time.`
     ],
-    tech: "Golang, Redis, Docker, Prometheus, Grafana, PostgreSQL, Celery",
+    tech: "Golang, Redis, Docker, Prometheus, Grafana, PostgreSQL",
     github: "https://github.com/ab0626/Distributed-Task-Queuing-System",
     website: ""
   },
@@ -44,7 +44,7 @@ const projects = [
     description: [
       `CueAI is a high-fidelity pool simulation app designed to predict cue ball and object ball behavior based on input parameters like shot angle, speed, spin, and table imperfections. It incorporates advanced physics simulations, machine learning calibration, and a simple user interface to provide an interactive and accurate pool shot prediction tool.`
     ],
-    tech: "Python, PyTorch, Scikit-learn, OpenCV, PyQt",
+    tech: "C++, Python, PyTorch, Pandas, Numpy, Scikit-learn, OpenCV, PyQt, ONNX",
     github: "https://github.com/ab0626/CueAI",
     website: ""
   },
@@ -54,7 +54,7 @@ const projects = [
     description: [
       'Developing an AI-powered backend tool using Java, Spring Boot, DynamoDB, and ML to boost API performance by at least 30% via real-time diagnostics, schema automation, and CI/CD integration. '
     ],
-    tech: "Java, Spring Boot, DynamoDB",
+    tech: "Java, Spring Boot, DynamoDB, Langchain",
     github: "https://github.com/ab0626/Batch",
     website: ""
   }
