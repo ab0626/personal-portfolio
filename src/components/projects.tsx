@@ -57,6 +57,22 @@ const projects = [
     tech: "Java, Spring Boot, DynamoDB, Langchain",
     github: "https://github.com/ab0626/Batch",
     website: ""
+  },
+  {
+    number: "06",
+    title: "Warp",
+    description: [
+      'Developed Warp - A modern, experimental compiler written in Rust that demonstrates advanced programming language concepts. Built from the ground up with a focus on clean architecture and educational value.',
+      'Key Features:',
+      '- Static type system supporting int, float, bool, string, and void types',
+      '- Functions with typed parameters and return types',
+      '- Comprehensive semantic analysis and type checking',
+      '- Modular design with separate lexer, parser, semantic analyzer, and code generator',
+      '- Pseudo-assembly output for educational purposes'
+    ],
+    tech : "Rust, Compiler Design, Type Systems, AST, Semantic Analysis",
+    github: "https://github.com/ab0626/Warp",
+    website: ""
   }
 ];
 export function Projects() {

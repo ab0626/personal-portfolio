@@ -17,25 +17,52 @@ const navItems = [
 
 const experiences = [
   {
-    company: "Roblox",
-    date: "June 2025 - Present",
-    role: "Software Development Engineer / QA Engineering (Testing) (Remote)",
+    company: "Microsoft",
+    date: " Summer 2026",
+    role: "Software Engineering Intern",
     description: [
-      " - Development for Roblox Studio, Testing Team on a game with 55M+ Visits, Active user count over 1K+"
+      "SWE @ IDENTITY AND NETWORK ACCESS (BUSINESS SECURITY)"
     ]
   },
   {
     company: "Susquehanna International Group",
-    date: "Summer 2025",
-    role: "Quantitative Developer Intern",
-    description:[
-      " - Summer 2025"
-    ],
+    date: "June 2025 - Auguest 2025 (Summer 2025)",
+    role: "Software Engineering Intern",
+    description: [
+      "- Shipped 10+ gameplay features in Lua/TypeScript, boosting DAU by 20% through core battle system updates.",
+      "- Built real-time combat and sync logic for 1K+ concurrent users with sub-100ms latency using custom RPC.",
+      "- Developed Python-based rollout tooling with latency tracing and integrity checks, cutting deploy risk by 60%."
+    ]
+  },
+  {
+    company: "Roblox",
+    date: "June 2025 - Present",
+    role: "Software Development Engineer / QA Engineering (Testing) (Remote)",
+    description: [
+      "- Shipped 10+ gameplay features in Lua/TypeScript, boosting DAU by 20% through core battle system updates.",
+      "- Built real-time combat and sync logic for 1K+ concurrent users with sub-100ms latency using custom RPC.",
+      "- Developed Python-based rollout tooling with latency tracing and integrity checks, cutting deploy risk by 60%."
+    ]
+  },
+  {
+    company: "WorldQuant",
+    date: "March 2025 - Present",
+    role: "Quantitative Research Consultant | converted from IQC 2025",
+    description: [
+      "- Delivered 15+ production-ready alphas by researching market microstructure and cross‑sectional factors in Python, resulting in simulated IC of 0.03–0.08 and Sharpe 1.2–2.1 across equities and ETFs.",
+      "- Reduced data prep time 70% by building an automated pipeline (yfinance/Quandl/WRDS + SQL), performing survivorship-bias‑free joins, corporate action adjustments, and anomaly checks for 10+ years of daily and minute bars.",
+      "- Improved signal robustness by implementing walk‑forward validation and Purged K‑Fold CV, cutting out‑of‑sample performance decay by 35% vs naive splits.",
+      "- Increased alpha orthogonality 25% by applying z‑scoring, sector/size/volatility neutralization, and Barra‑style risk factor de‑biasing, leading to more stable portfolio IR.",
+      "- Accelerated research iteration 4× by parallelizing parameter sweeps with joblib/Dask on AWS EC2, reducing a 6‑hour grid search to 90 minutes.",
+      "- Lowered turnover 18% with execution-aware signal smoothing and volatility scaling, improving simulated net PnL after estimated 5–10 bps costs.",
+      "- Enhanced code reliability by adding unit tests and reproducible notebooks (pytest + MLflow), reaching ~85% coverage and one‑click experiment replay.",
+      "- Communicated results in weekly readouts to PMs, leading to 3 alphas advanced to paper‑trading and a 60–120 bps quarterly uplift in simulated multi‑alpha composites."
+    ]
   },
   {
     company: "Corvid Technologies",
     date: "March 2025 - Present",
-    role: "SOFTWARE DEVELOPMENT ENGINEERING INTERN",
+    role: "SOFTWARE ENGINEERING INTERN (VERITAS / MDA)",
     description: [
       " - Built gRPC data pipelines with Protobuf, reducing latency 3× (150ms→50ms) for 1M+ daily messages",
       " - Developed real-time signal simulation tools in C/C++, optimizing sensor propagation pipelines to handle classified workloads with up to 10x spatial fidelity, improving execution time by 35%.",
@@ -46,7 +73,7 @@ const experiences = [
   {
     company: "Madison CEO",
     date: "Aug 2023 - May 2024",
-    role: "SOFTWARE ENGINEERING FELLOW",
+    role: "SOFTWARE ENGINEERING INTERN (CRM)",
     description: [
       " - Implemented 6 decoupled microservices using Java and Python with Spring Boot and Flask, handling 12,000+ daily API requests, leading to a 45% reduction in response latency and a 30% server load decrease.",
       " - Led a 6-member cross-functional team to deploy a key React-Redux feature, boosting platform engagement to 800+ daily active users, and increasing session time by 20% within 60 days.",

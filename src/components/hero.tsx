@@ -214,6 +214,7 @@ export function Education() {
             <li>Data Science And Ai Club - Vice President</li>
             <li>ICPC - President</li>
             <li>Space Hardware Club</li>
+            <li>SASE (Society of Asian Scientists and Engineers) Club</li>
           </ul>
         </div>
         {/* Scholarships & Awards Card */}
@@ -225,6 +226,11 @@ export function Education() {
             <li>College of Science Ambassador - 15 selected out of 1000+ applicants to guide incoming students</li>
             <li>College of Science CS Ambassador - 1 selected out of 800+ applicants to faciliate CS students and faculty at expos, lectures and new course introductions</li>
             <li>Merit scholarship</li>
+            <li>IMO Training Camp (0.02%)
+            <li>USACO Platinum</li>
+            <li>ICPC competitor</li>
+            <li>CF rating of 1763 (top 5%)</li>
+            </li>
           </ul>
         </div>
       </div>
