@@ -29,9 +29,10 @@ const experiences = [
     date: "June 2025 - Auguest 2025 (Summer 2025)",
     role: "Software Engineering Intern",
     description: [
-      "- Shipped 10+ gameplay features in Lua/TypeScript, boosting DAU by 20% through core battle system updates.",
-      "- Built real-time combat and sync logic for 1K+ concurrent users with sub-100ms latency using custom RPC.",
-      "- Developed Python-based rollout tooling with latency tracing and integrity checks, cutting deploy risk by 60%."
+      "Built low‑latency C++17 services using STL and Boost.Asio for TCP/UDP/FIX market‑data ingestion and normalization, sustaining 600K+ msgs/s with p99 latency < 180 µs by using zero‑copy parsing, socket options (SO_RCVBUF/affinity), and preallocated memory pools.",
+      "Implemented order‑routing and risk checks in C# with async sockets and .NET concurrent collections, reducing end‑to‑end tick‑to‑trade by 28% and cutting GC pauses by 40% via struct pooling and Span<T>.",
+      "Delivered Python tooling for backtests and release engineering (pytest, mypy, Black), shrinking experiment runtime 3× with vectorized NumPy and multiprocessing, and improving developer throughput by 25% through one‑click CI jobs and metrics dashboards.",
+      "Profiled and hardened systems across Linux/Windows using perf/VTune, flamegraphs, and sanitizers; eliminated two contention hot spots with lock‑free ring buffers, raised throughput 35%, increased integration test coverage from 55%→85%, and achieved 99.95% weekly SLA"
     ]
   },
   {
