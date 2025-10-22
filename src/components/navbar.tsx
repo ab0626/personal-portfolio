@@ -29,10 +29,11 @@ const experiences = [
     date: "June 2025 - Auguest 2025 (Summer 2025)",
     role: "Software Engineering Intern",
     description: [
-      "Built low‑latency C++17 services using STL and Boost.Asio for TCP/UDP/FIX market‑data ingestion and normalization, sustaining 600K+ msgs/s with p99 latency < 180 µs by using zero‑copy parsing, socket options (SO_RCVBUF/affinity), and preallocated memory pools.",
-      "Implemented order‑routing and risk checks in C# with async sockets and .NET concurrent collections, reducing end‑to‑end tick‑to‑trade by 28% and cutting GC pauses by 40% via struct pooling and Span<T>.",
-      "Delivered Python tooling for backtests and release engineering (pytest, mypy, Black), shrinking experiment runtime 3× with vectorized NumPy and multiprocessing, and improving developer throughput by 25% through one‑click CI jobs and metrics dashboards.",
-      "Profiled and hardened systems across Linux/Windows using perf/VTune, flamegraphs, and sanitizers; eliminated two contention hot spots with lock‑free ring buffers, raised throughput 35%, increased integration test coverage from 55%→85%, and achieved 99.95% weekly SLA"
+      "- Decreased tick-to-trade latency from 180μs to 120μs (33% improvement) through lock-free queue implementation and CPU affinity optimization.",
+      "- Increased message processing throughput by 2.5× (from 400K to 1M messages/sec) by implementing SIMD vectorization in C++ market data parser.",
+      "- Decreased P99 latency variance from 500μs to 50μs by eliminating GC pauses and implementing deterministic memory management.",
+      "- Profiled and hardened systems across Linux/Windows using perf/VTune, flamegraphs, and sanitizers; eliminated two contention hot spots with lock‑free ring buffers, raised throughput 35%, increased integration test coverage from 55%→85%, and achieved 99.95% weekly SLA",
+      "- Implemented P&L attribution system tracking $10M+ daily trading volume across 500+ instruments with <10ms latency."
     ]
   },
   {
