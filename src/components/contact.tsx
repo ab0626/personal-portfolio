@@ -20,7 +20,7 @@ export function Contact() {
           <h2 className="text-3xl font-bold text-center mb-8">Get in Touch with me</h2>
           <div className="flex justify-center mb-8">
             <Button variant="outline" className="gap-2" asChild>
-              <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
+              <a href="/Bellamkonda_Adithya_resume__Systems_engineering_ (8).pdf" target="_blank" rel="noopener noreferrer">
                 <FileDown className="h-4 w-4" />
                 Resume
               </a>
